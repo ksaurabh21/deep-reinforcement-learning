@@ -25,6 +25,8 @@ The environment is considered solved, when the average (over 100 episodes) of th
 
 ### Getting Started
 
+To setup the environment, follow the instructions here: https://github.com/udacity/deep-reinforcement-learning#dependencies. Then you have to:
+
 1. Download the environment from one of the links below.  You need only select the environment that matches your operating system:
     - Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Linux.zip)
     - Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis.app.zip)
@@ -37,7 +39,9 @@ The environment is considered solved, when the average (over 100 episodes) of th
 
 2. Place the file in the DRLND GitHub repository, in the `p3_collab-compet/` folder, and unzip (or decompress) the file. 
 
+3. Then open anaconda prompt, change directory to `p3_collab-compet/`, activate drlnd environment and launch jupyter notebook.
+
 ### Instructions
 
-Follow the instructions in `Tennis.ipynb` to get started with training the agent!  
+Execute the cells in `Tennis.ipynb` to train the agent!  
 
