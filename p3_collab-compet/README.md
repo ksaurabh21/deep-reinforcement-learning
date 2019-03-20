@@ -16,14 +16,14 @@ In this environment, two agents control rackets to bounce a ball over a net. If 
 
 The observation space consists of 8 variables corresponding to the position and velocity of the ball and racket. Each agent receives its own, local observation.  Two continuous actions are available, corresponding to movement toward (or away from) the net, and jumping. 
 
-The task is episodic, and in order to solve the environment, your agents must get an average score of +0.5 (over 100 consecutive episodes, after taking the maximum over both agents). Specifically,
+The task is episodic, and in order to solve the environment, the agents must get an average score of +0.5 (over 100 consecutive episodes, after taking the maximum over both agents). Specifically,
 
 - After each episode, we add up the rewards that each agent received (without discounting), to get a score for each agent. This yields 2 (potentially different) scores. We then take the maximum of these 2 scores.
 - This yields a single **score** for each episode.
 
 The environment is considered solved, when the average (over 100 episodes) of those **scores** is at least +0.5.
 
-### Getting Started
+### Environment Setup
 
 To setup the environment, follow the instructions here: https://github.com/udacity/deep-reinforcement-learning#dependencies. Then you have to:
 
@@ -37,11 +37,11 @@ To setup the environment, follow the instructions here: https://github.com/udaci
 
     (_For AWS_) If you'd like to train the agent on AWS (and have not [enabled a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md)), then please use [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Linux_NoVis.zip) to obtain the "headless" version of the environment.  You will **not** be able to watch the agent without enabling a virtual screen, but you will be able to train the agent.  (_To watch the agent, you should follow the instructions to [enable a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md), and then download the environment for the **Linux** operating system above._)
 
-2. Download the files in the `p3_collab-compet/` folder.
+2. Download the files in the `p3_collab-compet/` folder from this repository.
 
 3. Then open anaconda prompt, change directory to `p3_collab-compet/`, activate drlnd environment and launch jupyter notebook.
 
 ### Instructions
 
-Multi-agent ddpg algorithm is used to train the agents play tennis. Execute the cells in `Tennis.ipynb` to train the agents!  
+Change the path in `Tennis.ipynb` to locate the tennis UnityEnvironment and execute the cells in to train the agent.
 
